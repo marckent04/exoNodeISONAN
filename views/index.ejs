@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+	<title>Post form</title>
+</head>
+<body>
+	<h1 class="text-center">Exercice</h1>
+	<div class="offset-md-4 col-md-4">
+		<form action="/traitement" method="post">
+			<div class="form-group">
+			    <label>Nom</label>
+			    <input type="text" class="form-control" id="" placeholder="Nom" name="nom">
+		  	</div>
+		  	<div class="form-group">
+			    <label>Prenoms</label>
+			    <input type="text" class="form-control" id="" placeholder="Prenoms" name="prenoms">
+		  	</div>
+		  <div class="form-group">
+		    <label>Adresse E-mail</label>
+		    <input type="email" class="form-control" placeholder="Adress E-mail" name="email">
+		  </div>
+		  <div class="form-group">
+		    <label>Mot de passe</label>
+		    <input type="password" class="form-control" id="" placeholder="Mot de passe" name='mdp'>
+		  </div>
+		  
+		  <button type="submit" class="btn btn-primary btn-block">Soumettre</button>
+		</form>
+	</div>
+</body>
+</html>
